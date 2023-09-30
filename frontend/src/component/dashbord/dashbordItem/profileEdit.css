@@ -1,0 +1,330 @@
+.mainSection{
+    width: 100%;
+}
+.profileSection{
+    width: 100%;
+    padding: 20px;
+    height: auto;
+    /* display: flex; */
+    /* background-color: whitesmoke; */
+    background-color: rgb(255, 247, 247);
+}
+
+.inp{
+    display: none;
+}
+.profileaimageEdit{
+    margin: 30px;
+    width: 50%;
+    height: auto;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.pimage{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.profileedits{
+    background-color: none;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-bottom: 2px solid rgba(107, 99, 99, 0.911);
+}
+.profileForm{
+    height: auto;
+    padding: 20px;
+    width: 98%;
+}
+.inputfields{
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    font-size: 16px;
+    width: 80%;
+}
+.editaresas{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-direction: column; */
+   
+
+    >label{
+        padding: 10px 20px;
+       
+    }
+}
+.inputfieldsbtn{
+    padding: 10px 60px;
+    margin: 6px;
+    border-radius: 4px;
+    border:none;
+    transition: all 0.4s ease;
+    cursor: pointer;
+
+}
+
+.up{
+    background-color: rgba(5, 5, 239, 0.679);
+}
+.dp{
+    background-color: rgb(242, 89, 6);
+}
+.inputfieldsbtn:hover{
+    /* background-color: orangered; */
+    transform:translateY(-9px);
+}
+.btnUpdate{
+ 
+    display: flex;
+
+}
+.cnclbtns{
+    position: relative;
+    left: 80%;
+    top: -10%;
+}
+.upbtn{
+    position: relative;
+    left: 80%;
+    /* margin-top: 20px;  */
+}
+/* ****************************Project******************** */
+.addProjectInputField{
+    width: 100%;
+    height: 100%;
+    /* padding: 20px; */
+    /* background-color: red; */
+    /* border-right: 2px solid black; */
+    margin: 10px;
+}
+.ta{
+    border: none;
+}
+.addProjectDiaplay{
+    width: 45%;
+    height: auto;
+    padding: 20px;
+    margin-top: -100px;
+}
+
+
+/* ****************************Project******************** */
+.skillView{
+    width: 20%;
+    margin: 20px;
+}
+.skillsSection{
+    display: flex;
+}
+.skilbox{
+    background-color: rgb(235, 234, 230);
+    display: flex;
+    justify-content: left;
+    align-items: last baseline;
+   margin: 20px;
+   padding-bottom: 10px;
+   overflow: hidden;
+   height: auto;
+   width: 90%;
+}
+.PLink{
+    font-weight: 600;
+}
+.iLink{
+    font-size: 8px;
+
+}
+.skillImage{
+   /* background-color: red; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   width: 100%;
+   height: 120px;
+   padding: 0;
+   margin: 0;
+   overflow: hidden;
+   border-bottom: 1px solid rgb(170, 168, 166);
+}
+.skillImage img{
+    /* object-fit: cover; */
+    object-position: center;
+    max-width: 100%;
+    height: auto;
+    padding: 4px;
+    
+}
+.p2{
+    font-size: 12px;
+}
+
+.university_item{
+    width: 100%;
+}
+.tittleofdisplay{
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 2px solid blue;
+}
+.certificateSection{
+    width: 90%;
+    background-color: rgba(220, 207, 207, 0.834);
+    /* padding: 40px; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding-bottom: 40px;
+}
+.certificateProfile{
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid rgb(163, 161, 161);     */
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.cimage{
+    border-radius: 0px;
+    width: 90%;
+    height: 60vh;
+    object-fit: fill;
+    object-position: center;
+    object-fit: scale-down;
+}
+.certificateTittle{
+    text-align: center;
+    /* margin-left: 40%; */
+    border-bottom: 2px solid blue;
+    
+}
+.certi{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+}
+.certifibtn{
+    margin-left: 700px;
+}
+.issubmitdiaplsy{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+}
+.igm-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.img-btn{
+    background-color: blue;
+}
+
+
+
+@media (max-width:850px) {
+
+    .profileSection{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .profileaimageEdit{
+        flex-direction: column;
+    }
+    .editaresas {
+        width: 100%;
+       display: flex;
+       flex-direction: column;
+       justify-content: left;
+       align-items: flex-start;
+    }
+
+
+    .inputfields {
+      
+        font-size: 16px;
+        width: 100%;
+    }
+    .textareas {
+        padding: 10px 20px;
+        width: 100%;
+    }
+    .btnUpdate {
+       padding: 10px;
+    }
+    .university_item {
+        margin-top: 20px;
+    }
+    .skillsSection {
+        flex-direction: column-reverse;
+        height: auto;
+        padding: 20px 0px;
+        margin-bottom: 50px;
+      
+    }
+    .skillView {
+        width: 100%;
+        margin: 0;
+    }
+    .profileedits {
+     flex-direction: column-reverse;  
+     height: auto;
+     padding: 10px;
+     margin-bottom: 50px;
+     margin-top: 10px;
+    }
+    .upbtn {
+        position: relative;
+        left: 0%;
+        /* margin-top: 20px; */
+    }
+    .cnclbtns {
+        position: relative;
+        left: 0%;
+        top: 0%;
+    }
+    .certificateSection{
+        width: 100%;
+        height: auto;
+    }
+    .certifibtn {
+        margin-left: 0px;
+    }
+    .cimage {
+       height: auto;
+    }
+    .certificateProfile {
+        padding: 0;
+        width: 96%;
+    }
+    .certi {
+       height: auto;
+    }
+       
+    .profileForm {
+        height: auto;
+        padding: 0px;
+        width: 98%;
+    }
+}

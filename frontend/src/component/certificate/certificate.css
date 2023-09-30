@@ -1,0 +1,48 @@
+.certificate{
+   
+    background-color: rgba(42, 42, 44, 0.391);
+    padding: 20px;
+}
+.certifi{
+    width: 45%;
+    height:500px;
+    margin: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    object-fit: cover;
+    object-position: center;
+    transition: all 0.7s ease;
+}
+
+.certifi:hover{
+    
+    transform: scale(.95);
+}
+.certificateItems{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+.certificateTittle{
+    padding: 30px;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+
+
+
+
+
+
+@media (max-width:850px) {
+
+    .certifi{
+        width: 100%;
+        object-fit:contain;
+        object-position:center;
+        height: auto;
+    }
+}

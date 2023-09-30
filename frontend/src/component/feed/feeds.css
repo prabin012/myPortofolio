@@ -1,0 +1,148 @@
+.feeds{
+    margin-top: 100px;
+}
+.blogcontainerJoin{
+    width: 80%;
+    left: 10%;
+    position: relative;
+    border-radius: 5px;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(52, 5, 96, 0.611);
+}
+.blogContainerImage{
+    width: 35%;
+    height: 400px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 7px;
+   
+}
+.blogContainerImage img{
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 7px;
+    margin-top: -50px;
+    margin-left: 50px;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+img:hover{
+    /* transform:translate(10px);
+    transform:translateY(10px); */
+    transform: scale(100%);
+}
+.joinEmail{
+    width: 300px;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 7px;
+    /* width: 100%; */
+    border: 1px solid white;
+    /* margin-left: -100px; */
+}
+.joinEmail:focus{
+    outline: none;
+}
+.joinMe{
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: 1px solid white;
+    margin: 20px 10px;
+    font-weight: bold;
+}
+.welcomeUser{
+    font-size: 40px;
+    font-weight: 1000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 55, 0);
+}
+.joinGreet{
+    font-size: 50px;
+    font-weight: 1000;
+    font-family: 'Caveat', cursive;
+
+}
+.JoinUs{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.descripy{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+@media (max-width:850px) {
+
+    .blogcontainerJoin{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        left: 0;
+    }
+
+    .blogContainerImage{
+        width: 100%;
+        height: 400px;
+    }
+    .blogContainerImage{
+        height:300px ;
+    }
+    .blogContainerImage img{
+        width: 90%;
+        margin-top: -20px;
+        margin-left: 20px;
+
+    }
+    .JoinUs{
+       
+        width: 90%;
+       padding: 50px 10px;
+    }
+    .joinGreet{
+        font-size: 38px;
+    }
+    .welcomeUser{
+        font-size: 35px;
+    }
+  
+    .descripy{
+        padding: 10px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .j1{
+        display: flex;
+        width: 100%;
+        height: 40px;
+    }
+    .joinEmail{
+        width: auto;
+        font-size: 16px;
+        margin-right: 5px;
+    }
+    .joinMe{
+        padding: 10px 10px;
+        margin-left: 2px;
+        margin: 0;
+        font-weight: bold;
+        background-color: rgba(0, 0, 255, 0.644);
+        color: white;
+    }
+    .blog3{
+        padding-bottom: 20px;
+    }
+
+    
+}
